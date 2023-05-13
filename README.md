@@ -2,9 +2,9 @@
 This repository contains material that I prepared for the computational course project in Phys 230 course that took place during Spring 2023 at UC Merced. There are few codes written in python by me as a beginner which explain the results I presented for my project on 'Continuum modelling: Liquid-liquid phase separation'.
 There are two documents in the repository other than the codes:
 
-1. Phys_230_final_presentation.pdf which holds my non-modified presentation, along with several additional slides at the end to showcase new results.
+1. Phys_230_final_presentation.pdf which holds my non-modified presentation, along with several additional slides at the end to showcase new trial results.
 
-2. Phys_230_project_Arnab_Roy.pdf which is a combination of my HW 3 submission (without modifications) and a brief summary describing the state of the project at the end with corresponding math.
+2. Phys_230_project_Arnab_Roy.pdf which is a combination of my HW 3 submission (without modifications) and a brief summary describing the state of the project at the end with possible future steps.
 
 Each .py file in the repository has the following purpose/instructions:
 
