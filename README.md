@@ -18,7 +18,7 @@ a. Preferred model parameters are specified on lines 21-30. Be careful deciding 
 
 c. Deciding if you want to keep track of simulation time throughout ('yes' keeps track, everything else doesn't); replace line 35 with tcls = 'yes' (steps between each calculation on line 37).
 
-d. numba jit decorators are used at the beginning of every function object i.e. every short chunk or blocks starting with 'def' to speed up the computation.
+d. numba jit decorators are used at the beginning of every function object i.e. every short chunk or blocks starting with 'def' to speed up the computation. Another point I want to mention is that np.roll somehow didn't work with numba, so I had to write down short block of code explicitly for calculating laplacian using for loops (lines 41-55).
 
 e. You can pick which time evolution scheme you want, if line 115(116) is uncommented you are using Forward Euler(Runge Kutta). Can comment/uncomment respectively to change this.
 
