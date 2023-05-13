@@ -4,7 +4,7 @@ There are two documents in the repository other than the codes:
 
 1. Phys_230_final_presentation.pdf which holds my non-modified presentation, along with several additional slides at the end to showcase new trial results.
 
-2. Phys_230_project_Arnab_Roy.pdf which is a combination of my HW 3 submission (without modifications) and a brief summary describing the state of the project at the end with possible future steps.
+2. Phys_230_Project_Arnab_Roy.pdf which is a combination of my HW 3 submission (without modifications) and a brief summary describing the state of the project at the end with possible future steps.
 
 Each .py file in the repository has the following purpose/instructions:
 
