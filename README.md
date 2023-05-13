@@ -8,7 +8,7 @@ There are two documents in the repository other than the codes:
 
 Each .py file in the repository has the following purpose/instructions:
 
-(1) <ins>FE_RK4_Numba_Combined_droplet_random_init.py</ins>
+(1) **FE_RK4_Numba_Combined_droplet_random_init.py**
 
 A two component liquid-liquid phase separation model represented in Section 1 of the Phys_230_project.pdf file. It consists of two different time evolution methods: Forward Euler and 4th order Runge Kutta. Note: density array ranges from -1 to 1.
 
@@ -24,7 +24,7 @@ e. You can pick which time evolution scheme you want, if line 115(116) is uncomm
 
 f. Decide if you want to print out the maximum and minimum value of the final u array, that can be done by uncommenting lines 132-133.
 
-(2) <ins>Cahn_Hilliard_trial1_FE_RK4.py</ins>
+(2) **Cahn_Hilliard_trial1_FE_RK4.py**
 
 This is the very first code I wrote in this project. It consists of both Forward Euler and RK4 methods with random initialization. It is a much simpler code. I used np.roll command to create the 2D discrete laplacian for my model. Two key points here:
 
@@ -38,7 +38,7 @@ d. Choose parameters for systems at lines 65-76.
 
 N.B: I would suggest to start with this simplest code at first.
 
-(3) <ins>Cahn_Hilliard_single_droplet_trial1_with_reaction.py</ins>
+(3) **Cahn_Hilliard_single_droplet_trial1_with_reaction.py**
 
 This code was written for single droplet initialization using interpolating tanh function (without reaction) and then also reaction term was added.
 
@@ -48,7 +48,7 @@ b.Look carefully u_array is being initialized at line 84 by calling the 'initial
 
 c. Choose parameters for systems at lines 71-81. Rest everything is similar to earlier code and add the reaction term say was as before.
 
-(4) <ins>time_comparison_code.py</ins>
+(4) **time_comparison_code.py**
 
 This simple short code is written to compare simulation time difference between Forward Euler and Runge-Kutta(4th order) methods.
 
